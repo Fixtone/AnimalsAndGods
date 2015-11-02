@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Log">
+      <UniqueIdentifier>{1934e7f5-738a-479b-9f85-8034add17b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameStates">
+      <UniqueIdentifier>{94088cc4-263e-43ad-a659-44693928f355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameStates">
+      <UniqueIdentifier>{e53fea6d-1ea9-4155-9270-7f3aaddbc07f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tools">
+      <UniqueIdentifier>{34621c87-252a-4a9d-8618-e5e19a171853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tools">
+      <UniqueIdentifier>{3bd865de-ed86-4480-8545-9fd7a13125ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Physics">
+      <UniqueIdentifier>{ad778827-662e-434d-a5fe-fcbe6af2ec10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{709a97ac-fd91-4dea-90b5-42477074948b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shaders">
+      <UniqueIdentifier>{828acbbb-529d-45b9-af84-31b4180b08e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shaders">
+      <UniqueIdentifier>{870fd057-e43c-4efd-a9ab-b582c51a3973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lua">
+      <UniqueIdentifier>{73a5b7b8-a337-447e-8984-252688a71c5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua">
+      <UniqueIdentifier>{3081759f-e474-47ea-9d61-dbc754d9cb6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{4131697d-6b32-4c6f-95e4-ea85cc8092b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{41aa610d-50a6-4d3c-bd90-6fbddc9fd5e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{da15e3ce-8fce-4975-897c-16f24d76636c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{782e9025-f203-481f-89e0-c94b1320ce49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles">
+      <UniqueIdentifier>{a750599c-5296-46a6-9dc5-7ffd21a9c554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles">
+      <UniqueIdentifier>{61534141-0df8-4344-a706-2946b6fbe9ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{fbe2f5ec-47a4-463c-a061-d36acb44fe91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Log\Input">
+      <UniqueIdentifier>{c7b6387d-346c-4267-93ec-6903a89e838e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders">
+      <UniqueIdentifier>{9c4e3140-78a6-4b7e-9c1d-c61c7c595100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders">
+      <UniqueIdentifier>{1024c7e4-eb5c-4f02-8f76-bb986d29adfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\DotSceneLoader">
+      <UniqueIdentifier>{0ddd2924-cb48-457d-9c33-1484cfd905e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Video">
+      <UniqueIdentifier>{c576c527-1992-43d5-bd13-4395df74bd56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Video">
+      <UniqueIdentifier>{64babad3-0f5c-4b6f-8071-70a0b19ff14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles\OgreParticles">
+      <UniqueIdentifier>{a17ecbcd-7707-4e53-8c2a-453a3c29c8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles\OgreParticles">
+      <UniqueIdentifier>{c89fad86-0721-45d2-ad79-0f08dcd59f34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particles\ParticlesUniverse">
+      <UniqueIdentifier>{b4f48a5b-1153-42c5-850c-93bfc578d0b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles\ParticleUniverse">
+      <UniqueIdentifier>{81c5b1e0-7d8a-4cfc-88ef-88b4079eb5bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders\Levels">
+      <UniqueIdentifier>{ad732178-eb30-49c6-b6f1-5b39120092cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\Levels">
+      <UniqueIdentifier>{a8e249af-b583-4560-b9db-ba5bf0bc6dad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders\DotSceneLoader">
+      <UniqueIdentifier>{00701d9e-638e-4697-b9d9-48c16eb8629e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject">
+      <UniqueIdentifier>{ca66e837-3351-4fe8-bc98-1b4bbb047dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{21bda95e-4024-49fe-af93-234f760dc0b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectBase">
+      <UniqueIdentifier>{c4c24fdd-de4a-4986-b52f-2846a96d46fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectInterfaces">
+      <UniqueIdentifier>{44ab2285-3c42-4a86-a9ce-ea0f765f8d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{88367296-d373-417c-ae71-809bf0be1331}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Materials">
+      <UniqueIdentifier>{2ccf271b-b43e-4b8c-86d1-5fef52170c26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectNodes">
+      <UniqueIdentifier>{29cb8818-4261-4316-a5cf-4da52657ddcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectLights">
+      <UniqueIdentifier>{b4565f0a-081a-4682-9d93-df9a238ddd15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectNode">
+      <UniqueIdentifier>{c991a3b0-fe30-4d29-94c4-b39a90cda6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectLights">
+      <UniqueIdentifier>{018c7f38-d4ba-4a69-8a22-3e91e668c002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectParticleSystems">
+      <UniqueIdentifier>{1a906a3f-fa53-4346-b4c8-ab3460e0c7c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectParticleSystems">
+      <UniqueIdentifier>{733c6eb0-3061-4a27-9367-0f3915d2487c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectWayPoints">
+      <UniqueIdentifier>{7ffdecec-7d87-4b2a-9ec9-58c476787eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectWayPoints">
+      <UniqueIdentifier>{e11a18d2-5ca1-4d96-9cf9-5375de0cc00c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectTrains">
+      <UniqueIdentifier>{e1092ac1-7235-4832-ac4f-1e2ef4bb6d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectTrains">
+      <UniqueIdentifier>{3e93583e-1068-4f03-95eb-9b9e63ddb677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectCharacters">
+      <UniqueIdentifier>{c29d8259-6a6a-4f93-bd13-c83460913cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectCharacters">
+      <UniqueIdentifier>{c0c0ac0e-dbba-4b56-b4f8-66efb63a59e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectCharacters\GameObjectPlayers">
+      <UniqueIdentifier>{3547e6c5-4bf4-4782-b609-768167e4e070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectCharacters\GameObjectPlayers">
+      <UniqueIdentifier>{40b33b12-899d-4d0d-b5c4-353ecb28b0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders\MeshAnimationsLoader">
+      <UniqueIdentifier>{84cd8456-d25a-4dee-a1e3-6d5330623c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\MeshAnimationsLoader">
+      <UniqueIdentifier>{a16dcda0-3722-4b7f-a4a8-5f015091b705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectSpaceShips">
+      <UniqueIdentifier>{33f93f75-d28d-45f7-83be-b0025471ad1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectSpaceShips">
+      <UniqueIdentifier>{28a94fff-e10d-43ef-9b6d-6c81bc50c855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectEntities">
+      <UniqueIdentifier>{64f9fc93-8b9c-4778-99fa-1258d19e0642}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectEntities">
+      <UniqueIdentifier>{7fe850e1-1137-4bb7-94fb-6a07c4b8d419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameObject\GameObjectCharacters\GameObjectPeople">
+      <UniqueIdentifier>{5af4fcb3-2d51-492a-b696-17bde11c45e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\GameObjectCharacters\GameObjectPeople">
+      <UniqueIdentifier>{96c452ab-370b-40bc-aa14-7297110aeed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{9f27708c-a496-4c7e-924f-54652795c92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{21990c32-6538-4e37-9654-66805b0dbb4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{3d7f3880-b9f4-4bdd-8f9d-72f3c5ba3d53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{ba08c39d-98a6-490a-bdca-0e69f461de28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mind">
+      <UniqueIdentifier>{c54cdf8b-9c11-4ffc-b394-6f485bc935e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mind">
+      <UniqueIdentifier>{4c8ec86f-325d-4a4b-b295-19770f48733b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\GUI3D">
+      <UniqueIdentifier>{80538e20-e499-4589-8452-f13d28f8cb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI\GUI3D\Customisation">
+      <UniqueIdentifier>{9daab20c-3a32-4eda-b327-5c4075b29d79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\GUI3D">
+      <UniqueIdentifier>{4047893d-e927-4230-bf93-0f406bb60e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI\GUI3D\Customisation">
+      <UniqueIdentifier>{ab8f5368-652c-444c-b740-fa032b4ae6a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\MindLoader">
+      <UniqueIdentifier>{06b4cf11-c28a-4138-982a-43d23679ec80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders\MindLoader">
+      <UniqueIdentifier>{3313ff4d-75d7-4540-8a23-b75997643daf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Loaders\MenuLoader">
+      <UniqueIdentifier>{6e9c991b-f84c-4f89-b187-43a36b651800}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Loaders\MenuLoader">
+      <UniqueIdentifier>{8d0ba3e4-f379-4512-8d28-13dc83afde07}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\GameManager.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\IntroState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\Tools.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Physics\PhysicsManager.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\DeferredShadingManager.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\GBufferSchemeHandler.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\GBufferMaterialGenerator.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\MaterialGenerator.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\AmbientLight.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\DeferredLightCP.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\DLight.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\LightMaterialGenerator.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\GeomUtils.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shaders\SSAOLogic.cpp">
+      <Filter>Source Files\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tools\ShareData.cpp">
+      <Filter>Source Files\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaInterface.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lua\LuaManager.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Logic\LogicManager.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Weapons\MachineGun.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Weapons\BlastGun.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Weapons\WeaponsManager.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\ConsoleState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraManager.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\FreeCamera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\FPSCamera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loaders\DotSceneLoader\DotSceneLoader.cpp">
+      <Filter>Source Files\Loaders\DotSceneLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Video\VideoManager.cpp">
+      <Filter>Source Files\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\PlayState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particles\OgreParticles\ParticlesOgreManger.cpp">
+      <Filter>Source Files\Particles\OgreParticles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Particles\ParticleUniverse\ParticleUniverseManager.cpp">
+      <Filter>Source Files\Particles\ParticleUniverse</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\MainMenuState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\LoadingState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loaders\Levels\LevelManager.cpp">
+      <Filter>Source Files\Loaders\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\StaticCamera.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeLighter.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectLights\GameObjectLightManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectLights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeStreetLight.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeSewer.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectParticleSystems\GameObjectParticleSystemsManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectParticleSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectParticleSystems\GameObjectPU.cpp">
+      <Filter>Source Files\GameObject\GameObjectParticleSystems</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNode.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectLights\GameObjectLight.cpp">
+      <Filter>Source Files\GameObject\GameObjectLights</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeFloorSign.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeStreetAddonThree.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeStreetAddonOne.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeStreetAddonTwo.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectWayPoints\GameObjectWayPointsManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectWayPoints</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectTrains\GameObjectTrain.cpp">
+      <Filter>Source Files\GameObject\GameObjectTrains</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectTrains\GameObjectTrainsManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectTrains</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectCharacters\GameObjectPlayers\GameObjectPlayer.cpp">
+      <Filter>Source Files\GameObject\GameObjectCharacters\GameObjectPlayers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectCharacters\GameObjectCharacter.cpp">
+      <Filter>Source Files\GameObject\GameObjectCharacters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectCharacters\GameObjectCharactersManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectCharacters</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loaders\MeshAnimationsLoader\MeshAnimationsLoader.cpp">
+      <Filter>Source Files\Loaders\MeshAnimationsLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectSpaceShips\GameObjectSpaceShip.cpp">
+      <Filter>Source Files\GameObject\GameObjectSpaceShips</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectSpaceShips\GameObjectSpaceShipsManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectSpaceShips</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectNodes\GameObjectNodeHydrant.cpp">
+      <Filter>Source Files\GameObject\GameObjectNode</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectEntities\GameObjectEntityManager.cpp">
+      <Filter>Source Files\GameObject\GameObjectEntities</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject\GameObjectCharacters\GameObjectPeople\GameObjectPolice.cpp">
+      <Filter>Source Files\GameObject\GameObjectCharacters\GameObjectPeople</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mind\MindManager.cpp">
+      <Filter>Source Files\Mind</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mind\Thought.cpp">
+      <Filter>Source Files\Mind</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GUI3D\Customisation\MyStandardPanelColors.cpp">
+      <Filter>Source Files\UI\GUI3D\Customisation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI\GUI3D\GUI3DManager.cpp">
+      <Filter>Source Files\UI\GUI3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loaders\MindLoader\MindLoader.cpp">
+      <Filter>Source Files\Loaders\MindLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Loaders\MenuLoader\MenuLoader.cpp">
+      <Filter>Source Files\Loaders\MenuLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameStates\PauseState.cpp">
+      <Filter>Source Files\GameStates</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\GameStates\GameManager.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\GameState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\IntroState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Input\InputManager.h">
+      <Filter>Header Files\Log\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Log\MyLogListener.h">
+      <Filter>Header Files\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tools\Tools.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Physics\PhysicsManager.h">
+      <Filter>Header Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\DeferredShadingManager.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\GBufferSchemeHandler.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\NullSchemeHandler.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\GBufferMaterialGenerator.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\MaterialGenerator.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\DLight.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\LightMaterialGenerator.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tools\GeomUtils.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\AmbientLight.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\DeferredLightCP.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\ListenerFactoryLogic.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Shaders\SSAOLogic.h">
+      <Filter>Header Files\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tools\ShareData.h">
+      <Filter>Header Files\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Lua\LuaDefines.h">
+      <Filter>Header Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Lua\LuaInterface.h">
+      <Filter>Header Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Lua\LuaManager.h">
+      <Filter>Header Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Logic\LogicInterface.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Logic\LogicManager.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Weapons\Weapon.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Weapons\MachineGun.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Weapons\BlastGun.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Weapons\WeaponsManager.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\ConsoleState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera\CameraManager.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera\FreeCamera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera\CustomCamera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera\FPSCamera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Loaders\DotSceneLoader\DotSceneLoader.h">
+      <Filter>Header Files\Loaders\DotSceneLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Video\VideoManager.h">
+      <Filter>Header Files\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\PlayState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Particles\OgreParticles\ParticleOgreManager.h">
+      <Filter>Header Files\Particles\OgreParticles</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Particles\ParticleUniverse\ParticleUniverseManager.h">
+      <Filter>Header Files\Particles\ParticlesUniverse</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\MainMenuState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\LoadingState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Loaders\Levels\LevelManager.h">
+      <Filter>Header Files\Loaders\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Camera\StaticCamera.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectBase\GameObject.h">
+      <Filter>Header Files\GameObject\GameObjectBase</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectInterfaces\IReactive.h">
+      <Filter>Header Files\GameObject\GameObjectInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Materials\GlowMaterialListener.h">
+      <Filter>Header Files\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeManager.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeLighter.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectLights\GameObjectLight.h">
+      <Filter>Header Files\GameObject\GameObjectLights</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectLights\GameObjectLightManager.h">
+      <Filter>Header Files\GameObject\GameObjectLights</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeStreetLight.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectInterfaces\IClever.h">
+      <Filter>Header Files\GameObject\GameObjectInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNode.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeSewer.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectParticleSystems\GameObjectParticleSystemsManager.h">
+      <Filter>Header Files\GameObject\GameObjectParticleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectParticleSystems\GameObjectPU.h">
+      <Filter>Header Files\GameObject\GameObjectParticleSystems</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeFloorSign.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeStreetAddonThree.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeStreetAddonOne.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeStreetAddonTwo.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectWayPoints\GameObjectWayPointsManager.h">
+      <Filter>Header Files\GameObject\GameObjectWayPoints</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectTrains\GameObjectTrain.h">
+      <Filter>Header Files\GameObject\GameObjectTrains</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectTrains\GameObjectTrainsManager.h">
+      <Filter>Header Files\GameObject\GameObjectTrains</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectCharacters\GameObjectCharacter.h">
+      <Filter>Header Files\GameObject\GameObjectCharacters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectCharacters\GameObjectCharactersManager.h">
+      <Filter>Header Files\GameObject\GameObjectCharacters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectCharacters\GameObjectPlayers\GameObjectPlayer.h">
+      <Filter>Header Files\GameObject\GameObjectCharacters\GameObjectPlayers</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Loaders\MeshAnimationsLoader\MeshAnimationsLoader.h">
+      <Filter>Header Files\Loaders\MeshAnimationsLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectSpaceShips\GameObjectSpaceShipsManager.h">
+      <Filter>Header Files\GameObject\GameObjectSpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectSpaceShips\GameObjectSpaceShip.h">
+      <Filter>Header Files\GameObject\GameObjectSpaceShips</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectNodes\GameObjectNodeHydrant.h">
+      <Filter>Header Files\GameObject\GameObjectNodes</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectEntities\GameObjectEntity.h">
+      <Filter>Header Files\GameObject\GameObjectEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectEntities\GameObjectEntityManager.h">
+      <Filter>Header Files\GameObject\GameObjectEntities</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameObject\GameObjectCharacters\GameObjectPeople\GameObjectPolice.h">
+      <Filter>Header Files\GameObject\GameObjectCharacters\GameObjectPeople</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Sound\SoundManager.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Mind\MindManager.h">
+      <Filter>Header Files\Mind</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Mind\Thought.h">
+      <Filter>Header Files\Mind</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GUI\GUI3D\Customisation\MyStandardPanelColors.h">
+      <Filter>Header Files\UI\GUI3D\Customisation</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GUI\GUI3D\GUI3DManager.h">
+      <Filter>Header Files\UI\GUI3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Loaders\MindLoader\MindLoader.h">
+      <Filter>Header Files\Loaders\MindLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Loaders\MenuLoader\MenuLoader.h">
+      <Filter>Header Files\Loaders\MenuLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\GameStates\PauseState.h">
+      <Filter>Header Files\GameStates</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
